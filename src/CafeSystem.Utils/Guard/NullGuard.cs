@@ -12,7 +12,7 @@ namespace CafeSystem.Utils
         public static bool IsNull(this object obj)
             => obj == null;
 
-        /// <summary>
+        /// <summary> 
         /// Checks if an Object is not null.
         /// </summary>
         /// <param name="obj"></param>
