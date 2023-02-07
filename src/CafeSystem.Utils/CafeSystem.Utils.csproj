@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1;net451;net60</TargetFrameworks>
+        <TargetFrameworks>netstandard2.1;net60</TargetFrameworks>
         <LangVersion>latest</LangVersion>
         <PackageId>CafeSystem.Utils</PackageId>
         <Title>CafeSystem Utility extension methods</Title>
