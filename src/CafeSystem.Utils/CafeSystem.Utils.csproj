@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.1;net451;net60</TargetFrameworks>
+        <PackageId>CafeSystem.Utils</PackageId>
+        <Title>CafeSystem Utility extension methods</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Iman Nemati</Authors>
+        <Company>CafeSystem</Company>
+        <PackageProjectUrl>https://github.com/CafeSystem/utils</PackageProjectUrl>
+        <Description>A simple package with common helper and extenions methods to prevent duplication of codes in every projects.</Description>
+        <Summary>A simple package with common helper and extenions methods to prevent duplication of codes in every projects.</Summary>
+        <RepositoryUrl>https://github.com/cafesystem/utils</RepositoryUrl>
+        <PackageTags>guard extensions utils</PackageTags>
+        <PackageReleaseNotes>
+            Initial release
+        </PackageReleaseNotes>
+        <Version>0.0.1</Version>
+        <AssemblyName>CafeSystem.Utils</AssemblyName>
+<!--        <PackageIcon>icon.png</PackageIcon>-->
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    </PropertyGroup>
+</Project>
