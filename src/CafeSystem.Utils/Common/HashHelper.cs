@@ -40,5 +40,25 @@ namespace CafeSystem.Utils
             return BitConverter.ToString(encodedBytes);
         }
         
+        /// <summary>
+        /// Encode input to Base64
+        /// </summary>
+        /// <param name="input">The string which you want to convert</param>
+        /// <returns>The converted base64 string</returns>
+        public static string Base64Encode(this string input) {
+            var plainTextBytes = Encoding.UTF8.GetBytes(input);
+            return Convert.ToBase64String(plainTextBytes);
+        }
+
+        /// <summary>
+        /// Decode Base64 data to it's original representation.
+        /// </summary>
+        /// <param name="base64EncodedData">The encoded data</param>
+        /// <returns>The base64 decoded string</returns>
+        public static string Base64Decode(this string base64EncodedData) {
+            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+        }
+
     }
 }
